@@ -1,14 +1,14 @@
 from validation import validate_inputs
 
 def min_cars_needed(P, S):
-    validate_inputs(P, S)  # Validate inputs before proceeding
+    validate_inputs(P, S)  # Validates inputs before proceeding
     total_people = sum(P)  # Calculates total number of people
     if total_people == 0:  # If no people, return 0
         return 0
 
-    sorted_seats = sorted(S, reverse=True) # Sort seats in descending order so we can use cars with the most seats first
+    sorted_seats = sorted(S, reverse=True) # Sorts seats in descending order so we can use cars with the most seats first
 
-    seats_secured = 0    # Counts the total number of seats needed
+    seats_secured = 0    # Counts the number of seats available
     cars_used = 0        # Counts the number of cars used
 
     for seats in sorted_seats:               # Iterates through the sorted list of seats
