@@ -1,9 +1,9 @@
-# Min Cars Needed Function
+## Min Cars Needed Function
 
 A Python function to determine the **minimum number of cars** required to transport a group of people, where each car has a certain number of passengers and available seats. The goal is to take as few cars as possible on the trip. 
 
 
-# Problem Statement
+## Problem Statement
 
 A group of friends is going on a trip. They arrive at a meeting point using `N` cars. Each car is represented by:
 
@@ -18,7 +18,7 @@ They want to **combine cars** so that everyone fits, and use as **few cars as po
 2. `P = [4, 4, 2, 4]`, `S = [5, 5, 2, 5]` → **3 cars used**  
 3. `P = [2, 3, 4, 2]`, `S = [2, 5, 7, 2]` → **2 cars used**
 
-# Solution Overview
+## Solution Overview
 
 - Calculate the total number of people to transport.
 - Sort the cars by seat count in descending order.
@@ -28,22 +28,22 @@ They want to **combine cars** so that everyone fits, and use as **few cars as po
 
 ## How to Run
 
-# Requirements
+### Requirements
 - Python 3.7+
 - `pytest` for running tests
 
-# Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-# Run the Function
+### Run the Function
 python app.py
 
-# Run the Tests
+### Run the Tests
 pytest
 
-# Test Coverage
+## Test Coverage
 
 - Valid input cases and edge cases
 - Empty lists, zero passengers
@@ -51,6 +51,6 @@ pytest
 - Scenarios with too few seats
 - Large-scale inputs
 
-# Assumptions
+## Assumptions
 - Everyone must be seated
 - If not enough seats are available, across all cars, a ValueError is raised
