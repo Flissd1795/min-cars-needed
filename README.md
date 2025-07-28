@@ -12,7 +12,7 @@ A group of friends is going on a trip. They arrive at a meeting point using `N` 
 
 They want to **combine cars** so that everyone fits, and use as **few cars as possible**, leaving the rest parked.
 
-# Examples:
+## Examples:
 
 1. `P = [1, 4, 1]`, `S = [1, 5, 1]` → **2 cars used**  
 2. `P = [4, 4, 2, 4]`, `S = [5, 5, 2, 5]` → **3 cars used**  
@@ -38,10 +38,14 @@ pip install -r requirements.txt
 ```
 
 ### Run the Function
+```bash
 python app.py
+```
 
 ### Run the Tests
+```bash
 pytest
+```
 
 ## Test Coverage
 
