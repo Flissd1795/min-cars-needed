@@ -20,11 +20,11 @@ They want to **combine cars** so that everyone fits, and use as **few cars as po
 
 ## Solution Overview
 
-- Calculate the total number of people to transport.
-- Sort the cars by seat count in descending order.
-- Add one car at a time until the total seat count is enough.
-- Return the number of cars used.
-- Includes input validation for types and values.
+- Calculate the total number of people to transport
+- Sort the cars by seat count in descending order
+- Add one car at a time until the total seat count is enough
+- Return the number of cars used
+- Includes input validation for types and values
 
 ## How to Run
 
