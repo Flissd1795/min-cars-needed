@@ -1,1 +1,15 @@
-venv
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test-related cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VSCode settings
+.vscode/
